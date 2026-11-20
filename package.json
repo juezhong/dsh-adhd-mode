@@ -1,7 +1,7 @@
 {
   "name": "dsh-adhd-mode",
   "version": "0.2.0",
-  "private": true,
+  "private": false,
   "description": "Inject the i-have-adhd output-style rules into every new DSH session once, and re-enter them after each billion-context fold.",
   "type": "module",
   "main": "index.js",
@@ -19,11 +19,23 @@
     "icon.svg"
   ],
   "license": "MIT",
+  "author": "juezhong",
   "keywords": [
     "dsh-plugin",
     "adhd",
     "output-style"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juezhong/dsh-adhd-mode.git"
+  },
+  "homepage": "https://github.com/juezhong/dsh-adhd-mode#readme",
+  "bugs": {
+    "url": "https://github.com/juezhong/dsh-adhd-mode/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"
