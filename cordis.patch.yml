@@ -1,0 +1,7 @@
+# dsh-adhd-mode bundle patch: one insert adds this package's plugin row.
+#
+# The row has no mode-specific configuration: every field of the plugin config
+# has a working default, and the profile can override any of them here.
+- insert:
+    - id: adhd-mode
+      name: dsh-adhd-mode
