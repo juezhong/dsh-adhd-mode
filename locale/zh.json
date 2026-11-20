@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ADHD 模式",
+    "description": "让 i-have-adhd 的输出风格在每个 DSH 会话里自动生效一次，并在每次 billion-context 折叠后自动补投。"
+  }
+}

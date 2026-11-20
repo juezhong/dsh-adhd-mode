@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ADHD Mode",
+    "description": "Inject the i-have-adhd output-style rules into every new DSH session once, and re-inject them after each billion-context fold."
+  }
+}

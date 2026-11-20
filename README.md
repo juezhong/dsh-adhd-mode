@@ -22,7 +22,7 @@ dsh plugin --profile desktop add .\dsh-adhd-mode
 
 或在 DSH 里用 `plugin_manager` 的 `install_bundle`，目标填克隆下来的目录路径。装完重启 DSH，新会话即生效；已开着的会话不会追溯。
 
-尚未发布到 npm；如果以后发布，命令可简化为 `dsh plugin --profile desktop add dsh-adhd-mode`。
+这个包不发布到 npm（`package.json` 里 `private: true`，`npm publish` 会直接报错），只从 GitHub 安装。
 
 ## 配置
 

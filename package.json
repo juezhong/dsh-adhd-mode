@@ -1,13 +1,15 @@
 {
   "name": "dsh-adhd-mode",
   "version": "0.2.0",
-  "private": false,
+  "private": true,
   "description": "Inject the i-have-adhd output-style rules into every new DSH session once, and re-enter them after each billion-context fold.",
   "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js",
-    "./rules.md": "./rules.md"
+    "./rules.md": "./rules.md",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
   },
   "files": [
     "index.js",
@@ -15,11 +17,15 @@
     "cordis.patch.yml",
     "README.md",
     "docs",
+    "locale",
     "NOTICE",
     "icon.svg"
   ],
   "license": "MIT",
-  "author": "juezhong",
+  "author": {
+    "name": "liyunfeng",
+    "url": "https://github.com/juezhong"
+  },
   "keywords": [
     "dsh-plugin",
     "adhd",
@@ -34,7 +40,8 @@
     "url": "https://github.com/juezhong/dsh-adhd-mode/issues"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=20",
+    "dsh": ">=0.2.0-rc.1 <0.3.0-0"
   },
   "dsh": {
     "bundle": {
